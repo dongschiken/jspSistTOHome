@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
+  <display-name>jspPro</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+<!--   <servlet>
+  	<description>첫번째 서블릿</description>
+  	<description>현재 날짜, 시간 정보에 대한 요청을 응답하는 서블릿</description>
+  	<servlet-name>now</servlet-name>
+  	서블릿 클래스 줄때는 풀네임 패키지명.클래스명 전부다 줘야한다.
+  	<servlet-class>days01.Now</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+   	<servlet-name>now</servlet-name>
+   	<url-pattern>/days01/now.ss</url-pattern>
+   	<url-pattern>/days01/now</url-pattern>
+   	
+   	<url-pattern>/</url-pattern>
+   	<url-pattern>/days03/board/*</url-pattern> 
+   	<url-pattern>*.htm</url-pattern>
+   	
+   
+  </servlet-mapping> -->
+</web-app>

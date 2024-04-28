@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+<!-- db서버의 포트번호 바꾸기 "jdbc:oracle:thin:@127.0.0.1:1521:xe" 이부분 -->
+<Resource 
+		  name="jdbc/myoracle" 
+		  auth="Container"
+          type="javax.sql.DataSource" 
+          driverClassName="oracle.jdbc.driver.OracleDriver"
+          url="jdbc:oracle:thin:@dongs:1521:xe"
+          username="scott" 
+          password="tiger" 
+          maxTotal="20" 
+          maxIdle="10"
+          maxWaitMillis="-1"/>
+</Context>

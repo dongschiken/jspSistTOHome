@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Insert title here</title>
+<link rel="shortcut icon" href="http://localhost/jspPro/images/SiSt.ico">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<link rel="stylesheet" href="/jspPro/resources/cdn-main/example.css">
+<script src="/jspPro/resources/cdn-main/example.js"></script>
+<style>
+ span.material-symbols-outlined{
+    vertical-align: text-bottom;
+ }
+</style>
+
+</style>
+</head>
+<body>
+<header>
+  <h1 class="main"><a href="#" style="position: absolute;top:30px;">kenik HOme</a></h1>
+  <ul>
+    <li><a href="#">로그인</a></li>
+    <li><a href="#">회원가입</a></li>
+  </ul>
+</header>
+<h3>
+  <span class="material-symbols-outlined">view_list</span>javascript days00
+</h3>
+<div>
+  <xmp class="code">
+  
+  </xmp> 
+  
+     <form action="ex03_el_ok.jsp"  method="get">
+     책 제목 : <input type="text"  id="title"   name="title" autofocus><br>
+     저자 : <input type="text"  id="author"  name="author"><br>
+     <!-- <input type="submit"> 유효성 검사를 위해서 button타입으로 설정 --> 
+     <button type="button">submit</button>
+     <input type="reset">
+     </form>
+  
+</div>
+<script>
+	$("form button").on("click", function(){
+		alert("입력값에 대한 유효성 검사를 한 후...");
+		$("form").submit();
+	});
+</script>
+</body>
+</html>
